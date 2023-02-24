@@ -33,7 +33,7 @@ function Contact() {
       <div className="main-box" style={styl.mainbox}>
         <div className="container-left" style={styl.left}>
           {/* this is contact information place  */}
-          <img src="./props/symbol-of-peace.png" alt="error401" srcset="" />
+          <img src="./Props/Symbol-of-peace.Png" alt="error401" srcset="" />
         </div>
         <div className="container-right" style={styl.right} >
           {/* this is contact form place */}
