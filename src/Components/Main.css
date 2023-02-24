@@ -1,0 +1,64 @@
+.card {
+    transition: transform .2s ease-in;
+    margin: 0 auto;
+}
+
+.card:hover {
+    transform: scale(1.08);
+}
+
+.contain {
+    /* padding: 12px; */
+    height: 12px;
+    position: relative;
+    top: 20px;
+
+}
+
+@media only screen and (max-width: 670px) {
+    .Main-Container  {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100vw;
+        height: 50rem;
+        scroll-behavior: smooth;
+
+    }
+    .C-section{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100vw;
+        height: 50rem;
+        scroll-behavior: smooth;
+}
+    .card {
+        width: 15rem;
+        height: 12rem;
+    }
+}
+@media only screen and (max-width: 2080px) {
+    .Main-Container {
+      
+        display: flex;
+       margin-top: 4rem;
+        width: 100vw;
+      
+        scroll-behavior: smooth;
+
+    }
+    .C-section{
+        display: flex;
+        margin-top: 4rem;
+         width: 100vw;
+       
+         scroll-behavior: smooth;
+    }
+    .card {
+        width: 12rem;
+        height: 12rem;
+    }
+}
+
+#vi:hover{
+    color: rgb(128, 0, 255);
+}
